@@ -1,0 +1,36 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+$color-primary: #aaa;
+$color-secondary: #fff;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: $color-primary;
+}
+
+nav {
+    a:hover{
+        color: $color-secondary;
+    }
+}
+
+.title {
+    color: $color-secondary;
+}
+
+footer {
+    a {
+        color: $color-secondary;
+
+            &:hover {
+                color: $color-primary;
+            }
+    }
+}
+
